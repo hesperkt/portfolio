@@ -9,6 +9,25 @@ header {
 	height: 125px;
 }
 
+header ul {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 2%;
+}
+
+header li {
+	list-style-type: none;
+}
+
+header li a{
+	padding: 2% 4%;
+	text-decoration: none;
+	background: rgb(85 107 47);
+	color: rgb(244 240 234);
+	border-radius: 5%;
+}
+
 h1, h5 {
 	background: rgb(85 107 47);
 	color: rgb(244 240 234);
@@ -24,34 +43,42 @@ h2, h1 {
 }
 
 .hesperPhoto {
-	height: 70%;
-	width: 75%;
+	height: 65%;
+	width: 85%;
 	margin: 7% 5% 0%;
 }
 
 main {
 	display: flex;
-	height: 700px;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .split {
-	flex: 1;
+	width: 425px;
+}
+
+.description {
+	border: 2px solid black;
+	border-radius: 5%;
+	padding: 0 4%;
+	margin: 1% 2%;
 }
 
 .card {
 	padding: 0 4%;
-	margin: 2% 4%;
+	margin: 1% 2%;
 	border-radius: 5%;
     text-align: center;
 	background: rgb(85 107 47);
 }
 
-.bio {
+#bio {
 	margin-top: 2%;
 	padding: 5%;
 }
 
-.bio p {
+#bio p {
 	margin-top: 1%;
 	text-indent: 10%;
 }
@@ -59,6 +86,10 @@ main {
 .questions {
 	margin: 4%;
 	margin-top: 1%;
+}
+
+.panel li {
+	list-style-type: "★ ";
 }
 
 .accordion {
@@ -100,7 +131,7 @@ main {
 	height: 300px;
 }
 
-.gallery {
+#gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -112,7 +143,7 @@ main {
     width: 300px;
     border-radius: 10px;
     overflow: hidden;
-    background: #fff;
+    background: black;
     box-shadow: 0 4px 10px black;
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -125,35 +156,39 @@ main {
 .project-image {
     width: 100%;
     height: 200px;
-    object-fit: cover;
+    object-fit: contain;
 }
   
 .project-info {
     padding: 15px;
+	background: rgb(85 107 47);
 }
   
 .project-info h2 {
     margin: 0 0 10px;
     font-size: 1.5rem;
-    color: rgb(85 107 47);
+    color: rgb(244 240 234);
+	background: rgb(85 107 47);
 }
   
 .project-info p {
     font-size: 1rem;
     margin: 0 0 10px;
+	color: rgb(244 240 234);
+	background: rgb(85 107 47)
 }
   
 .project-link {
     display: inline-block;
     text-decoration: none;
-    color: #fff;
-    background: rgb(85 107 47);
+    color: rgb(244 240 234);
+    background: black;
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 1rem;
-    transition: background 0.3s;
 }
   
 .project-link:hover {
-    background: black;
+    color: rgb(244 240 234);
+	background: black;
 }
