@@ -1,0 +1,159 @@
+* {
+    font-family: "Space Mono", Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	margin: 0;
+	background: rgb(244 240 234);
+}
+
+header {
+	height: 125px;
+}
+
+h1, h5 {
+	background: rgb(85 107 47);
+	color: rgb(244 240 234);
+}
+
+h4, h6 {
+	background: rgb(85 107 47);
+}
+
+h2, h1 {
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.hesperPhoto {
+	height: 70%;
+	width: 75%;
+	margin: 7% 5% 0%;
+}
+
+main {
+	display: flex;
+	height: 700px;
+}
+
+.split {
+	flex: 1;
+}
+
+.card {
+	padding: 0 4%;
+	margin: 2% 4%;
+	border-radius: 5%;
+    text-align: center;
+	background: rgb(85 107 47);
+}
+
+.bio {
+	margin-top: 2%;
+	padding: 5%;
+}
+
+.bio p {
+	margin-top: 1%;
+	text-indent: 10%;
+}
+
+.questions {
+	margin: 4%;
+	margin-top: 1%;
+}
+
+.accordion {
+	background: rgb(85 107 47);
+	color: rgb(244 240 234);
+	cursor: pointer;
+	padding: 1rem;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+	margin: 1% 0%;
+}
+  
+.active, .accordion:hover {
+	background: black;
+}
+  
+.panel {
+	padding: 5%;
+	display: none;
+	overflow: hidden;
+}
+  
+.accordion:after {
+	color: black;
+	float: right;
+	margin-left: 5px;
+	content: "★"; 
+}
+
+.active:after {
+	content: "★";
+	color:rgb(244 240 234);
+}
+
+.breaker {
+	height: 300px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+  
+.project {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 10px black;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+  
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+  
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+  
+.project-info {
+    padding: 15px;
+}
+  
+.project-info h2 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: rgb(85 107 47);
+}
+  
+.project-info p {
+    font-size: 1rem;
+    margin: 0 0 10px;
+}
+  
+.project-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: rgb(85 107 47);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+  
+.project-link:hover {
+    background: black;
+}
