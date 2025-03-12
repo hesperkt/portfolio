@@ -21,7 +21,7 @@ header li {
 }
 
 header li a{
-	padding: 2% 4%;
+	padding: 5% 15%;
 	text-decoration: none;
 	background: rgb(85 107 47);
 	color: rgb(244 240 234);
@@ -45,7 +45,7 @@ h2, h1 {
 .hesperPhoto {
 	height: 65%;
 	width: 85%;
-	margin: 7% 5% 0%;
+	margin: 10% 5% 0%;
 }
 
 main {
@@ -128,7 +128,7 @@ main {
 }
 
 .breaker {
-	height: 300px;
+	height: 150px;
 }
 
 #gallery {
@@ -166,7 +166,7 @@ main {
   
 .project-info h2 {
     margin: 0 0 10px;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     color: rgb(244 240 234);
 	background: rgb(85 107 47);
 }
