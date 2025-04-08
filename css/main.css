@@ -5,6 +5,15 @@
 	background: rgb(244 240 234);
 }
 
+span {
+	display: block;
+	padding-top: 3%;
+}
+
+p, span {
+	padding-bottom: 2%;
+}
+
 header {
 	height: 125px;
 }
@@ -75,7 +84,7 @@ h2, h1 {
 
 #bio {
 	margin-top: 2%;
-	padding: 5%;
+	padding: 5% 2%;
 }
 
 #bio p {
