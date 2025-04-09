@@ -14,15 +14,14 @@ p, span {
 	padding-bottom: 2%;
 }
 
-header {
-	height: 125px;
-}
-
 header ul {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	align-items: center;
 	flex-wrap: wrap;
-	margin: 2%;
+	margin-bottom: 2%;
+	height: 75px;
+	background: rgb(85 107 47);
 }
 
 header li {
@@ -30,11 +29,13 @@ header li {
 }
 
 header li a{
-	padding: 5% 15%;
 	text-decoration: none;
 	background: rgb(85 107 47);
 	color: rgb(244 240 234);
-	border-radius: 5%;
+}
+
+header li a:hover{
+	color: black;
 }
 
 h1, h5 {
@@ -51,6 +52,15 @@ h2, h1 {
 	font-size: 1.5rem;
 }
 
+.banner {
+	display: flex;
+}
+.banner img {
+	width: 60%;
+	margin: 2% auto;
+	justify-content: center;
+}
+
 .hesperPhoto {
 	height: 500px;
 	width: 95%;
@@ -59,7 +69,6 @@ h2, h1 {
 
 .top {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
 }
 
@@ -92,13 +101,12 @@ h2, h1 {
 	text-indent: 10%;
 }
 
-.questions {
-	margin: 4%;
-	margin-top: 1%;
-}
-
 .panel li {
 	list-style-type: "★ ";
+}
+
+.questions {
+	margin: 0 15%;
 }
 
 .accordion {
@@ -108,10 +116,8 @@ h2, h1 {
 	padding: 1rem;
 	width: 100%;
 	text-align: left;
-	border: none;
-	outline: none;
 	transition: 0.4s;
-	margin: 1% 0%;
+	margin: 1% 0;
 }
   
 .active, .accordion:hover {
@@ -127,7 +133,6 @@ h2, h1 {
 .accordion:after {
 	color: black;
 	float: right;
-	margin-left: 5px;
 	content: "★"; 
 }
 
