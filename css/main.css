@@ -69,6 +69,7 @@ h2, h1 {
 
 .top {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 
@@ -205,4 +206,48 @@ h2, h1 {
 .project-link:hover {
     color: rgb(244 240 234);
 	background: black;
+}
+
+.panel{
+	background: white;
+}
+
+.panel li, .panel ul, .panel li a, .panel div, .form label{
+	background: white;
+}
+
+.form {
+    text-align: center;
+}
+
+form {
+    display: block;
+}
+
+form div {
+	padding: 0% 5% 2%;
+
+}
+
+form input, form textarea{
+	background: rgb(85 107 47);
+	color: rgb(244 240 234);
+	position: relative;
+}
+
+#name {
+	left: 2.5%;
+}
+
+#email {
+	left: 2%;
+}
+
+#message {
+	left: 0.75%;
+}
+
+form button {
+	background: black;
+	color: rgb(244 240 234);
 }

@@ -17,7 +17,7 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#bio">About</a></li>
                     <li><a href="#gallery">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -46,25 +46,43 @@
             </section>
             <section class="breaker">
             </section>
-            <div class="questions">
-                <button class="accordion">Contact Info</button>
+            <div id = "contact" class="questions">
+                <button class="accordion">Contact Info:</button>
                 <div class="panel">
                     <ul>
                         <li>Email: <a href="mailto:hk3@wellesley.edu">hk3@wellesley.edu</a></li>
                     </ul>
                 </div>
-                <button class="accordion">Social Media</button>
+                <button class="accordion">Let's connect!</button>
                 <div class="panel">
                     <ul>
-                        <li><a href="#">LinkedIn</li></a>
-                        <li><a href="#">Github</li></a>
-                        <li><a href="#">Twitter</li></a>
+                        <li><a href="https://www.linkedin.com/in/hesperkt/">LinkedIn</li></a>
+                        <li><a href="https://github.com/hesperkt">Github</li></a>
+                        <li><a href="https://x.com/hesperkt">Twitter/X</li></a>
                     </ul>
                 </div>
-                <button class="accordion">Resume/CV</button>
-                <div class="panel">
-                    <p>Learn about my experience <a href="#">here</a>.</p>
+                <button class="accordion">Send me a message!</button>
+                <div class="panel form">
+                    <form action="https://api.web3forms.com/submit" method="POST" >
+                        <input type="hidden" name="apikey" value="d0f1e2b6-e403-428f-b63e-6cb54a32bf51">
+                        <div>
+                            <label for="name">Name: </label>
+                            <input type="text" name="name" id="name" required/>
+                        </div>
+                        <div>
+                            <label for="email">Email: </label>
+                            <input type="email" name="email" id="email" required/>
+                        </div>
+                        <div>
+                            <label for="message">Message: </label>
+                            <textarea name="message" id="message" rows="3"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
                 </div>
+            </div>
             </div>
         </main>
         
