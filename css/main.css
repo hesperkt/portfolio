@@ -5,12 +5,7 @@
 	background: rgb(244 240 234);
 }
 
-span {
-	display: block;
-	padding-top: 3%;
-}
-
-p, span {
+p {
 	padding-bottom: 2%;
 }
 
@@ -38,9 +33,22 @@ header li a:hover{
 	color: black;
 }
 
-h1, h5 {
+h1, h3{
+	background: rgb(85 107 47);
+	color: black;
+	text-align: left;
+	font-weight: bolder;
+}
+
+h1 {
+	color: rgb(244 240 234);
+}
+
+h3 p{
 	background: rgb(85 107 47);
 	color: rgb(244 240 234);
+	display: inline;
+	font-weight: normal;
 }
 
 h4, h6 {
@@ -49,7 +57,7 @@ h4, h6 {
 
 h2, h1 {
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 1.75rem;
 }
 
 .banner {
@@ -81,12 +89,12 @@ h2, h1 {
 	border: 2px solid black;
 	border-radius: 5%;
 	padding: 0 4%;
-	margin: 1% 2%;
+	margin: 1%;
 }
 
 .card {
 	padding: 2% 4%;
-	margin: 1% 2%;
+	margin: 1%;
 	border-radius: 5%;
     text-align: center;
 	background: rgb(85 107 47);
@@ -143,7 +151,7 @@ h2, h1 {
 }
 
 .breaker {
-	height: 150px;
+	height: 50px;
 }
 
 #gallery {
