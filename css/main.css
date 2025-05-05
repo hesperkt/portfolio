@@ -55,7 +55,7 @@ h4, h6 {
 	background: rgb(85 107 47);
 }
 
-h2, h1 {
+h3, h1 {
 	text-align: center;
 	font-size: 1.75rem;
 }
@@ -187,7 +187,7 @@ h2, h1 {
 	background: rgb(85 107 47);
 }
   
-.project-info h2 {
+.project-info h3 {
     margin: 0 0 10px;
     font-size: 1.75rem;
     color: rgb(244 240 234);
