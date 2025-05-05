@@ -44,6 +44,14 @@ h1 {
 	color: rgb(244 240 234);
 }
 
+h2 {
+	background: rgb(85 107 47);
+	color:  rgb(244 240 234);
+	font-size: 2rem;
+	margin: 0 25%;
+	text-align: center;
+}
+
 h3 p{
 	background: rgb(85 107 47);
 	color: rgb(244 240 234);
@@ -100,6 +108,22 @@ h3, h1 {
 	background: rgb(85 107 47);
 }
 
+.learn {
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.learn div {
+	flex: 1;
+}
+
+.learn img {
+	display: block;
+	margin: 0 15%;
+	width: 85%;
+	border-radius: 5%;
+}
+
 #bio {
 	margin-top: 2%;
 	padding: 5% 2%;
@@ -115,7 +139,7 @@ h3, h1 {
 }
 
 .questions {
-	margin: 0 15%;
+	margin: 0 5%;
 }
 
 .accordion {
@@ -151,6 +175,10 @@ h3, h1 {
 }
 
 .breaker {
+	height: 100px;
+}
+
+.miniBreak {
 	height: 50px;
 }
 
@@ -258,4 +286,9 @@ form input, form textarea{
 form button {
 	background: black;
 	color: rgb(244 240 234);
+}
+
+footer {
+	height: 75px;
+	background: rgb(85 107 47);
 }
