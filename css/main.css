@@ -50,8 +50,14 @@ h2 {
 	background: rgb(85 107 47);
 	color:  rgb(244 240 234);
 	font-size: 2rem;
-	margin: 0 25%;
+	margin: 0 5%;
+	padding: 1%;
 	text-align: center;
+}
+
+#bio h3 {
+	padding: 1%;
+	color: rgb(244 240 234);
 }
 
 h3 p{
@@ -74,7 +80,7 @@ h3, h1 {
 	display: flex;
 }
 .banner img {
-	width: 60%;
+	width: 80%;
 	margin: 2% auto;
 	justify-content: center;
 }
@@ -113,6 +119,7 @@ h3, h1 {
 }
 
 .learn {
+
 	display:flex;
 	flex-wrap: wrap;
 }
@@ -134,7 +141,7 @@ h3, h1 {
 }
 
 #bio p {
-	margin-top: 5%;
+	margin-top: 7%;
 	text-indent: 10%;
 }
 
@@ -162,7 +169,8 @@ h3, h1 {
 }
   
 .panel {
-	padding: 5%;
+	background: white;
+	padding: 5% 7%;
 	display: none;
 	overflow: hidden;
 }
@@ -247,10 +255,6 @@ h3, h1 {
 	background: black;
 }
 
-.panel{
-	background: white;
-}
-
 .panel li, .panel ul, .panel li a, .panel div, .form label{
 	background: white;
 }
@@ -269,26 +273,17 @@ form div {
 }
 
 form input, form textarea{
+	width: 100%;
 	background: rgb(85 107 47);
 	color: rgb(244 240 234);
 	position: relative;
-}
-
-#name {
-	left: 2.5%;
-}
-
-#email {
-	left: 2%;
-}
-
-#message {
-	left: 0.75%;
+	padding: 12px;
 }
 
 form button {
 	background: black;
 	color: rgb(244 240 234);
+	padding: 2%;
 }
 
 footer {
