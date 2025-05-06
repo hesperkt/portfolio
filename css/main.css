@@ -198,14 +198,14 @@ h3, h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 45px;
+    gap: 25px;
 }
   
 .project {
     width: 300px;
     border-radius: 10px;
     overflow: hidden;
-    background: black;
+    background:  rgb(244 240 234);
     box-shadow: 0 4px 10px black;
     transition: transform 0.3s, box-shadow 0.3s;
 }
