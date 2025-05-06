@@ -2,6 +2,7 @@
     font-family: "Space Mono", Arial, Helvetica, sans-serif;
 	font-size: 1rem;
 	margin: 0;
+	padding: 0;
 	background: rgb(244 240 234);
 }
 
@@ -88,6 +89,8 @@ h3, h1 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	gap: 0 5%;
+	margin-top: 5%;
 }
 
 .split {
